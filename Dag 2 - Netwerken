@@ -15,7 +15,6 @@ Port Address Translation (PAT) Geeft Meerdere pc’s op een LAN één publiek IP
 
 
 
-
 VPN: een vpn is een Virtueel persoonlijk Netwerk en zorgt voor beveiliging van jouw verbindingen en anonimiteit.  
 
 PPTP (Point to Point Tunneling Protocol): is een VPN dat 2 LAN’s verbindt. Het creëert een tunnel door het internet waar je veilig informatie kan doorgeven. Vaak is het zo dat de computer van de ene netwerk als server dient en de andere als client.
