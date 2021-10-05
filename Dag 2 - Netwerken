@@ -1,0 +1,178 @@
+Dag2: Netwerk
+
+DMZ: een demilitarized zone, is een computernetwerk dat bereikbaar is van buitenaf (buiten de organisatie netwerk). het wordt beschermt door een firewall maar moet zo ingesteld worden (gaten in de firewall) zodat diensten nog mogelijk zijn. Het checkt of verbinding van een privé laptop/pc wel zijn toegestaan. Het wordt ook als een veiligheidszone gezien.
+
+Port Address Translation (PAT) Geeft Meerdere pc’s op een LAN één publiek IP-adres.  Als een pc inlogt krijgt hij dezelfde IP-adres als andere pc’s op dezelfde LAN maar een andere port nummer.
+
+2x 2-poorts firewalls: 2 firewalls waarbij de DMZ tussen de firewalls bevindt
+
+(image)
+ 
+1x 3-poorts firewall: 1 firewall waarbij de DMZ rechtstreeks verbinding mee maakt.
+ 
+ (image)
+
+
+
+
+
+VPN: een vpn is een Virtueel persoonlijk Netwerk en zorgt voor beveiliging van jouw verbindingen en anonimiteit.  
+
+PPTP (Point to Point Tunneling Protocol): is een VPN dat 2 LAN’s verbindt. Het creëert een tunnel door het internet waar je veilig informatie kan doorgeven. Vaak is het zo dat de computer van de ene netwerk als server dient en de andere als client.
+
+WireGuard: gratis en open-source software die versleutelde virtuele privénetwerken implementeert 
+•	Voordeel:
+o	Open source
+o	Gratis
+o	Hoge prestatie
+
+•	Nadeel:
+
+
+
+OpenVPN: open source VPN dat OpenSSL* en SSLv3/TLSv1* protocol gebruikt voor versleuteling.
+
+
+•	Voordeel:
+o	Open source
+
+•	Nadeel:
+o	Kan geen traffic schijden
+
+OpenSSL*: opensource implementatie van het SSL/TLS protocol
+SSLv3/TLSv1 (Transport Layer Security)*: SSL zorgt voor een veilige communicatie 
+
+Site-to-Site VPN:  is een verbinding tussen 2 permanente locaties.
+
+Niet ideaal voor het thuiswerken
+
+
+
+
+
+
+
+
+
+
+
+IPsec (internet protocol security)/ L2TP: de netwerk beheerder heeft macht over poort 500.
+Als poort 500 dicht is dan is de VPN protocol onbruikbaar. (je kan geen verbinding maken.)
+
+Kan gebruikt worden om van thuis te werken.
+
+•	Voordeel: 
+o	je kan veilig verbinding maken het bedrijf netwerk met een wachtwoord en een username.
+
+•	Nadeel:
+o	 je hebt een clientapplicatie nodig voor uw privé pc/laptop en als je er 2 wilt verbinden dan moet je 2 licenties gebruiken in plaats van 1.
+
+https://www.firewallshop.nl/klantenservice/informatie/thuiswerken-via-vpn/
+
+
+
+SSL VPN (Secure Socket Layer):  gebruikt een webbrowser. Het creëert een tunnel wanneer de webbrowser wordt opgestart (https verbinding). Er wordt wel nog altijd gevraagd voor jouw wachtwoord en username op de webbrowser zelf. 
+
+Het meest populaire protocol voor thuiswerken
+
+•	Voordeel:
+o	 geen clientapplicatie nodig.
+o	kan veilig verbinding maken het bedrijf netwerk
+o	eenvoudig gebruik
+o	kan op meerdere devices werken (smartphone, laptop, tablet, ect.)
+
+
+PABX(Private Automatic Branch eXchange ): een telefooncentrale voor bedrijven
+Het heeft 3 hoofdtaken: 
+•	Verbinding maken met 2 telefoontoestellen
+•	Verbinding behouden
+•	Informatie en statistieken behouden
+
+
+
+
+
+
+
+
+
+•	IP-adress:
+o	IPv4 is een 32-bit (wordt gescheiden door puntjes)  
+o	IPv6 is een 128-bit (wordt gescheiden door een colon) 
+o	Ipv-6
+ 
+
+	SAAS(Software as a Service): is een software dat een client kan huren met een abonnement.
+		(Bv. Netflix, Office 365,ect.) 
+
+ 
+
+
+
+
+
+
+
+
+
+Switches: een apparaat waarmee werknemers efficiënter mee kunnen communiceren.
+Cisco switches:
+•	Voordeel:
+o	Cisco-switches hebben geïntegreerde beveiliging
+o	Vereenvoudig het managen van mobiliteit, Internet of Things (IoT), datacenter en cloud
+o	uitgebreid portfolio van switches (daarom ideaal voor bedrijven)
+
+•	Nadeel:
+o	Kan duur zijn voor kleine bedrijfjes. 
+
+HP aruba:
+•	Voordeel:
+o	Bekent voor hun prestaties en betrouwbaarheid.
+o	Heeft HPE Smart Rate multi-gigabit-poorten voor snelle verbindingen.
+o	moderne, programmeerbare schakelaars.
+o	Heel aruba is ontworpen om te voldoen aan de uitdagingen van de mobiele cloud en het IoT-tijdperk, waarin zichtbaarheid, automatisering en beveiliging uitgegroeid zijn tot een platform om te overleven
+o	Deze switches worden geleverd met ingebouwde beveiligingsfuncties die zijn ontworpen voor mobiel en IoT.
+
+
+•	Nadeel:
+o	Meer aan de dure kant.
+
+
+
+
+
+
+
+FireWalls: is een systeem dat netwerken en computers kan beschermen tegen ongewenste gedoe van buitenaf.
+
+Er zijn 4 soorten firewalls:
+•	Packet filtering firewall.
+o	Met paar zelf ingestelde regels bepaalt de firewall of een IP-pakket wordt doorgelaten of tegengehouden (in de netwerklaag)
+•	Application layer firewall.
+o	Voor elk ondersteund protocol bepaalt een stukje software of pakketjes worden tegengehouden of doorgelaten (in de applicatielaag)
+•	Stateless firewall.
+o	controleert elk pakketje op zichzelf
+•	Stateful firewall.
+o	houdt informatie bij van connecties die door de firewall gaan.
+Voorbeeld van een soort firewall gebruikt in bedrijven:
+•	Watchguard:
+o	complete security
+o	zeer hoge prestatie
+o	ideaal voor middelgrote en gedistribueerde bedrijfsorganisaties.	
+GET’s Topologie: (image)
+
+
+
+
+
+
+
+
+
+
+verbeteringen voor GET: (image)
+
+ 
+(Distributed ster-topologie)
+*DMZ tussen 2 fire walls.* Dit is wel een verbetering maar het ideaalste is dat de 2 firewals naast elkaar tussen het internet en het bedrijfsnetwerk zit. Zodat als 1 firewall uit gaat dat het bedrijf nog internet heeft omdat er een 2de firewall klaar staat.
+
