@@ -1,0 +1,71 @@
+Dag 3  - Assets
+
+Windows intune:
+Microsoft Intune is een cloudservice die gericht is op MDM (Mobile Device Management) en MAM (Mobile Application Management). Je bepaalt zelf hoe de  apparaten van uw organisatie wordt gebruikt.
+MDM = beheren van mobiele (en desktops) apparaten .
+MAM = beheren van mobiele (en desktops)  applicaties.
+
+Device client policies : specifieke regels die jij configureert en actief stelt voor groepen van gebruikers of apparaten. Bv. is dit apparaat gejailbreakt?
+
+Levenscyclus van het apparaat: 
+-> enroll (inschrijven bv. policies)het apparaat
+-> configureren (bv. VPN, profielen, beveiliging, verplichte apps downloaden, ect.) 
+-> beschermen bv. Beperkte toegang geven aan bedrijfsinformatie als ze geschonden zijn of bedrijfsinformatie beschermen door acties te beperken (bv. Copy/paste/cut/ect.) wachtwoord en username instellen.
+-> steunen  hoe steunen we een werknemer met een probleem wanneer hij van thuis werkt? Wat te doen als een apparaat weg moet? Moet je alles verwijderen? Of specifieke gegevens verwijderen?
+Of wat te doen als een werknemer een apparaat verliest? Op afstand uitschakelen? Gegevens verwijderen?
+
+
+Conditional Access: apparaat niet ingeschreven (enrolled) = geen toegang tot bedrijfsgegevens
+App Protection Policies: beschermt de applicatie. Beperkt de acties dat je kan uitvoeren. Bv. Een bedrijfsmail die je naar word wil brengen. Je kan het niet opslaan in jouw privé opslagruimte of plakken naar een privé app maar wel downloaden in het bedrijfs cloudserver.	
+
+https://youtu.be/ildHLspps7M
+ 
+intune Architecture: 
+	Azure Active Directory: 
+•	authenticatie (=nagaan of dat een gebruiker wel dergelijk is wie hij zegt te zijn)  en autorisatie (= rechten geven/ autorisatie toekennen) van office 365 applicaties tot aan cloud-based applicaties waar uw gebruikers aan moeten.
+•	conditional access policies: als het apparaat geen overeenkomsten heeft kan het bedrijf het apparaat blokkeren zodat het geen toegang heeft naar verschillende bronnen in het bedrijf.
+
+
+
+
+
+
+
+
+Windows autopilot:
+Met autopilot staat alles al klaar. Een apparaat hoeft niet langer langs de IT afdeling voor de installatie van alle software. Met AutoPilot hebben de Windows apparaten alle nodige applicaties en updates van jouw organisatie
+
+Autopilot download de apps die je nodig hebt voor jouw of je werknemers. Configuraties en setups kunnen gedaan worden van overal. Als je maar internet hebt.
+Windows autopilot setup:
+1.	Registreer apparaat.
+2.	Maak een autopilot account aan en plaats het bij een groep.
+3.	Breng het apparaat naar gebruiker.  
+
+Wat je nodig hebt:	 
+Stappen om het te installeren:	 
+
+Windows Autopilot features: https://youtu.be/HZA5gbBsXc0
+
+(type 1) User-driven mode: Bij deze benadering moet de gebruiker het OOBE-scherm doorlopen. Na geslaagde gebruikersverificatie met Azure wordt het apparaat Azure AD Join + Intune ingeschreven. Intune implementeert apps en beleid.
+
+	(de gebruiker  in en intune zet de apps al klaar voor de gebruiker)
+(type 2) Self-deploying mode: Met de zelf installerende modus van Windows Autopilot kunt u een apparaat implementeren met weinig tot geen gebruikersinteractie. Voor apparaten met een Ethernet-verbinding is geen gebruikersinteractie nodig. Voor apparaten die via Wi-Fi zijn verbonden, moet de gebruiker alleen: De taal, de locale en het toetsenbord kiezen. Een netwerkverbinding maken.
+	(hetzelfde als User-Driven mode maar zonder inlog gegevens (username, wachtwoord)
+Pre-provisioned deployment: (White Glove) is een manier om moderne Windows 10-apparaten te bouwen door de tijdrovende Autopilot-gerelateerde taken zoals de installatie van apps, beleidsregels, profielen enz. van een eindgebruiker over te hevelen naar de technici die het apparaat leveren (IT, partners, OEM's).
+	(hetzelfde als User-Driven (een externe partij) mode maar de apps zijn al gedownload)
+Windows Autopilot reset: Windows Autopilot Reset brengt het apparaat terug naar een bedrijfsklare toestand, zodat de volgende gebruiker zich kan aanmelden en snel en eenvoudig productief kan worden. Specifiek, Windows Autopilot Reset: Verwijdert persoonlijke bestanden, apps en instellingen. Past de oorspronkelijke instellingen van een apparaat opnieuw toe.
+	(brengt het apparaat terug naar factory settings)
+
+
+
+ 
+
+Kioske mode(in kioske mode kan je niet delen en je kunt alleen Microsoft Store- of UWP-apps toewijzen voor de kioskmodus. Zelfs soms slechts 1 programma bv. bij de fnac, als je aan één van  laptops zit zie je alleen Fnac producten.)
+
+
+
+
+
+Power Automate: power automate is een webbrowser/applicatie waarmee je taken kan automatiseren met een programma die je zelf hebt geprogrammeerd.
+https://emea.flow.microsoft.com/nl-nl/?showFirstRunExperience=true
+
