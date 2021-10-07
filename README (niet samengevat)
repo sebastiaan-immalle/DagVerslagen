@@ -508,4 +508,181 @@ Power Automate: power automate is een webbrowser/applicatie waarmee je taken kan
 https://emea.flow.microsoft.com/nl-nl/?showFirstRunExperience=true
 
 
+Dag 4  - Back-ups & Teams
 
+Back-ups maken verkleint niet de kans dat er iets misgaat, maar het is wel de beste manier om ervoor te zorgen dat de schade minimaliseert.
+Online Backup: 
+•	Online Back-up = externe partij
+•	geëncrypteerd bewaard op servers in een extern beveiligd datacenter
+•	bepaalde tijdstip een back-up
+•	notificatie na elk succesvolle back-up.
+o	Back-up voorbeeld: COMBELL biedt reeds online backup aan vanaf 5 euro per maand voor 5 GB capaciteit en amper 15 euro per maand voor een ongelimiteerde capaciteit.
+•	Veeam:
+o	Eén platform voor moderne gegevensbeveiliging
+	Eenvoudig: gegevensbeveiliging die eenvoudig te implementeren en gemakkelijk te gebruiken is.
+	Flexibel: software-defined en hardware-onafhankelijk: cloud, virtueel & fysiek.
+	Betrouwbaar: back-up en herstel van elke workload met het volste vertrouwen uitvoeren.
+ 
+Host replication:
+Communiceren met de host -> VSS snapshot ->	 Compress & deduplicate naar disaster recovery -> 
+Storage replication:
+Bypass de host replication stappenplan en replicating a LUN
+Netapp is de software om (os)
+Om een file server te creeeren.
+Software dat zeker maakt dat je een back-up kan nemen.
+•	Replicate sneller van array tot array (de arrays moeten wel overeenkomen)
+Fileserver:
+•	Fysiek (betekent fysiek en digitaal gevaar) (one drive) cloud based. Een erver met bestanden
+•	De fileserver werkt met alle gangbare versies van Microsoft Windows
+•	Network-attached storage (NAS) / Storage (Or System) Area Networks (SAN) opzoeken
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+Netapp: Cloud Data Services voor het beheer van toepassingen en gegevens, zowel online als fysiek. Toonaangevende cloud data services, opslagsystemen en software.
+ What can NetApp do?
+NetApp, Inc. houdt zich bezig met het ontwerp, de fabricage, de marketing en de technische ondersteuning van opslag- en datamanagementoplossingen. Het bedrijf biedt cloud-datadiensten, software voor gegevensopslag, gegevensback-up en -herstel, all-flash storage, geconvergeerde systemen, beheer van gegevensinfrastructuur, ONTAP-gegevensbeveiliging en hybride flash storage.
+Hybrid cloud data fabric
+Alleen NetApp levert zowel clouddataservices aan uw datacenter als zakelijke storagemogelijkheden aan de public cloud. NetApp biedt u een uniforme softwaregedefinieerde ervaring voor het beheer van uw data in 's werelds grootste clouds, private clouds en op premises.
+https://youtu.be/sXOvvxXUeyQ - bekijken
+
+Verschilt met veeam?
+Failover: Failover is het overschakelen naar een redundante of stand-by computerserver, systeem, hardwarecomponent of netwerk bij een storing of abnormale beëindiging van de eerder actieve toepassing, server, systeem, hardwarecomponent of netwerk in een computernetwerk.
+Failback: Failback is het proces van het herstellen van operaties naar een primaire machine of faciliteit nadat deze zijn verschoven naar een secundaire machine of faciliteit tijdens
+Cloud Data Services voor het beheer van toepassingen en gegevens, zowel online als fysiek. Toonaangevende cloud data services, opslagsystemen en software.
+Data deduplicate: Bij computers is gegevensontdubbeling een techniek om dubbele kopieën van zich herhalende gegevens te elimineren.
+WAN-optimalisatie: WAN-optimalisatie is het versnellen van de verbinding tussen twee locaties in een Wide Area Network zonder de verbindingssnelheid daadwerkelijk te verhogen. Het optimaliseren van een WAN gebeurt over het algemeen door het plaatsen van WAN-optimalisatiehardware tussen de twee locaties die verbonden moeten worden.
+Logical unit number: in computeropslag is een logisch eenheidsnummer, of LUN, een nummer dat wordt gebruikt om een logische eenheid aan te duiden. Dit is een apparaat dat wordt geadresseerd door het SCSI-protocol of door Storage Area Network-protocollen die SCSI inkapselen, zoals Fibre Channel of iSCSI.
+Dataretentie: Dataretentie definieert het beleid van persistent gegevens- en archiefbeheer om te voldoen aan de wettelijke en zakelijke vereisten voor het archiveren van gegevens. Hoewel soms onderling verwisselbaar, moet het niet worden verward met de Gegevensbeschermings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NAS: (Network-attached storage) Network-attached storage, vaak afgekort tot het acroniem NAS, is een opslagmedium dat op het netwerk aangesloten is en gebruikmaakt van het TCP/IP-protocol voor dataoverdracht. NAS-apparaten zijn in feite volwaardige fileservers
+SAN: (Storage area network) Een storage area network is een specifieke IT-infrastructuur die het voor rekencentrumcomputers mogelijk maakt om gezamenlijk op blokniveau een of meerdere virtuele harde schijven te muteren.
+ 
+
+The Rundown
+•	Best Overall:
+o	 Western Digital My Cloud EX2 at Amazon ($379)
+o	Outstanding performance for both media streaming and file transfers.
+•	Best Budget:
+o	Synology DS220j at Amazon ($190)
+o	The DS220j is a reputable and affordable NAS that can act as a 24/7 file server for your home.
+•	Best Storage:
+o	Synology DiskStation DS918+ at EBay ($600)
+o	Nine drives of storage...a smart option for NAS shoppers looking for a single solution to hold all their data.
+•	Best for Home:
+o	Western Digital My Cloud EX4100 at Amazon ($711)
+o	Its eight terabytes of storage space offers up a wide set of possibilities for home storage options.
+•	Best Splurge:
+o	Netgear ReadyNAS 626X00 at Amazon ($3,978)
+o	The best NAS money can buy.
+Teams:
+je kan meerdere telefoon nummers in teams zetten
+Je kan ook telefoon nummers reserveren. 
+Je kan telefoonnummers aan wernemers geven wanneer de reserveerde nummers aangekomen zijn.
+Je kan de beller een optie geven om te kiezen met wie hij wilt spreken.
+
+Licenties
+Om gebruik te kunnen maken van Microsoft Phone System moet er een Phone System licentie toegekend worden aan een gebruiker. Deze licentie zit standaard in de Microsoft Office 365 Enterprise E5 licentie of is aan te schaffen als add-on op de Microsoft Office 365 Enterprise E1 of E3 licentie.
+Naast de Phone System licentie dient nog een belbundel aangeschaft te worden. Er zijn momenteel 3 type belbundels aan te schaffen:
+Binnenland (120 minuten)
+Binnenland (1200 minuten)
+Binnen- en buitenland (1200 minuten binnenland of 600 minuten buitenland)
+Alle beschikbare minuten van een bepaalde belbundel worden opgeteld waardoor gebruikers meer minuten kunnen gebruiken dan beschikbaar binnen de verkregen licentie. Het is nog niet mogelijk om achteraf middels een factuur de belminuten af te rekenen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Call Queues:
+Zodra een beller in een queue terecht komt gaat de telefoon over bij de personen die gekoppeld zijn aan de queue. De gebruiker ziet in Microsoft Teams direct voor welke queue gebeld wordt en kan de telefoon aannemen.
+Microsoft Phone system
+Zowel Microsoft Teams als Skype for Business (online) kunnen gebruikt worden voor telefonie. Wij hebben ervoor gekozen direct naar Microsoft Teams te migreren. Hiervoor zijn in Office 365 diverse mogelijkheden. We hebben er ook voor gekozen om Microsoft als telefonie-provider op te laten treden. Het beheer van telefoonnummers en de aanschaf van belbundels loopt in dit geval via Microsoft. In de praktijk ervaren wij hierdoor een groot voordeel. We hebben maar met één partij te maken en kunnnen onze telefonie eenvoudig zelf beheren. In het Office 365 Admin Center kun je eenvoudig licenties aan medewerkers toekennen en bepaal je zelf de inrichting van wachtrijen en toewijzing van telefoonnummers.
+Migratie van telefonie
+Een migratie van telefonie is altijd spannend. In ons geval dienden alle nummers in één keer overgezet te worden. Telefonie wordt gezien als bedrijfskritisch en de downtime diende daarom zo kort mogelijk te zijn. Vertrouwen in de partner waar je mee samenwerkt, in dit geval Microsoft, is essentieel.
+De communicatie met het team bij Microsoft dat de nummers porteerde ging snel en soepel. Vragen en verzoeken werden snel opgepakt. De goede communicatie met dit team heeft bijgedragen aan een succesvolle migratie.
+De portering werkt als iedere andere overstap van telefonieprovider. Je vraagt de portering aan en na goedkeuring spreek je een datum en tijd af waarop de nummers daadwerkelijk geporteerd worden. Microsoft maakt de telefoonnummers voor de portering al aan in de omgeving zodat de telefoonnummers vooraf aan de juiste personen toegekend kunnen worden. Zodra de nummers geporteerd zijn naar Microsoft kun je aan de slag met de laatste inrichting en kan er gebeld worden met Microsoft Teams. De portering heeft in ons geval gezorgd voor niet meer dan 20 minuten downtime.
+Auto Attendants
+Een Auto Attendant is een menu-systeem dat de telefoon beantwoord. Afhankelijk van de instellingen krijgt de beller een keuzemenu of een gesproken boodschap te horen, Buiten de openingstijden kan bijvoorbeeld aangegeven worden dat het bedrijf gesloten is. Na keuze van één van de opties in het menu kan de beller worden doorgeschakeld naar een Call Queue of een persoon.
+De Auto Attendant kun je koppelen aan een servicenummer en is bedoeld voor het hoofdnummer van het bedrijf of een afdeling.
+
+
+
+Pabx:
+Een Private Automatic Branch eXchange (PABX of PBX) is een telefooncentrale die door een bedrijf privé gebruikt wordt. Het is in principe hetzelfde als een huistelefooncentrale, maar er kunnen veel meer toestellen (bijvoorbeeld enkele duizenden) worden aangesloten.
+
+Analoge telefonie
+Traditioneel zijn telefoonlijnen analoog. Dit zijn de meest eenvoudige telefoonlijnen welke bestaan uit koperdraad. Deze loopt van een lokaal telefoonbedrijf naar een specifieke locatie. De twee dienen met elkaar te zijn verbonden, omdat de telefoonaanbieder het bedrijf verbindt met het publieke netwerk zodat er kan worden gebeld en ontvangen. Dit wordt bereikt doordat spraak wordt omgezet in elektrische golven die zich via de telefoonlijn naar hun bestemming verplaatsen. Analoge telefonie staat bekend als betrouwbaar en over het algemeen van goede kwaliteit. Het grootste probleem met analoge telefonie zijn de kosten. Daarbij kan één lijn slechts één gesprek tegelijk voeren. Tenslotte zit u met analoge telefonie vast aan de locatie waarop deze wordt geïnstalleerd.
+
+SIP Trunking en IP-PBX
+Bij SIP Trunking worden spraak- en andere gegevens via internet digitaal verzonden. Vaste lijnen kunnen worden vervangen door internetconnectiviteit. Hierdoor worden de kosten van het het lokale telefoonbedrijf vermeden. Ook internationaal telefoneren wordt op deze manier een stuk voordeliger. U dient ervoor te zorgen dat u voldoende bandbreedte heeft om belverkeer af te kunnen handelen en de integriteit van uw netwerk te kunnen waarborgen door communicatie via het datanetwerk te optimaliseren.
+
+IP-PBX, oftewel Intranet Private Branch eXchange, is een telefooncentrale welke het mogelijk maakt om verbindingen tussen analoge en VoIP toestellen te realiseren. IP-PBX maakt gebruik van SIP Trunking en kan zodoende contact leggen met VoIP toestellen, terwijl het via SIP Trunking de connectie maakt met analoge toestellen.
+
+PBX biedt functies aan zoals een automatische telefoniste, voicemail, vergaderingen en doorverbinden zonder dat u alle benodigde apparatuur ter plaatse hoeft te bezitten en te onderhouden. Het is niet nodig om PBX-apparatuur aan te schaffen, te onderhouden of uit te breiden. Stroom voor de apparatuur is dus niet nodig. Bij problemen op het netwerk is uw PBX nog steeds actief omdat deze "in de cloud" wordt gehost.
+
+Aanbieders vragen doorgaans een kleine opstartvergoeding, een aantal investeringskosten voor apparatuur en een maandelijks terugkerend bedrag. De prijs is afhankelijk van het aantal gebruikers, aanvullende functies en andere factoren.
+
+VoIP (Voice over Internet Protocol)
+VoIP-systemen gebruiken vaak apparatuur die vergelijkbaar is met PBX-systemen. Het zijn twee manieren om hetzelfde einddoel te bereiken: bellen en gebeld kunnen worden. PBX-systemen bestaan al jaren en worden voornamelijk gebruikt door bedrijven die een speciaal telefoonnetwerk nodig hebben. VoIP is een meer recente ontwikkeling die internet gebruikt om te bellen. Houd bij het kiezen tussen de twee rekening met de voor- en nadelen van beide opties, waarvan de meeste grotendeels afhankelijk zijn van uw situatie en uw einddoel.
+
+Het belangrijkste verschil tussen PBX en VoIP is de manier waarop ze gebruikers verbinden. Een PBX-systeem is in wezen een klein telefoonnetwerk dat gebruikmaakt van standaard telefoonlijnen voor inkomende en uitgaande gesprekken. Een typische opzet bevat een computer server, een handmatige besturingskaart en meerdere lijnen die verbinding maken met het openbare systeem. Deze lijnen maken verbinding met een intern schakelsysteem dat oproepen doorschakelt naar individuele telefoonlijnen door het hele bedrijf. Een VoIP-systeem is aanzienlijk minder ingewikkeld. Omdat het analoge spraak gegevens via internet overdraagt, is een internetverbinding en een computer of een IP-telefoon vereist.
+
+Een ander belangrijk verschil tussen VoIP en PBX is de apparatuur die u kunt of dient te gebruiken om te bellen. Traditionele PBX-systemen gebruiken standaard analoge telefoonapparatuur: bekabelde of draadloze telefoons en eventueel een headset. VoIP-systemen hebben daarentegen meerdere opties. Voor een replicatie van de traditionele telefoon ervaring kunt u een IP-telefoon of een draadloze telefoon gebruiken om verbinding te maken met internet. Veel VoIP-services bevatten ook een software applicatie die rechtstreeks vanaf een computer of mobiel apparaat belt en gebeld wordt.
+
+Gebruiksvriendelijke configuratie
+Als het gaat om belfuncties, bieden VoIP-systemen meer configuratie-opties dan PBX-systemen. Omdat VoIP-systemen rechtstreeks vanaf een computer worden beheerd, zijn ze eenvoudig te programmeren en te herprogrammeren, zelfs als u geen kennis daarvan hebt. U kunt vanaf elke internetverbinding wijzigingen aanbrengen in een online opzet. Een VoIP-systeem kan worden ingesteld om oproepen door te schakelen naar meerdere nummers of een nummer op basis van specifieke omstandigheden. VoIP-systemen bieden ook omzetting van voicemail naar tekst.
+
+Een PBX-systeem kan worden geconfigureerd om gesprekken door te sturen naar specifieke extensies of om alle gesprekken door te sturen naar een specifiek nummer, maar het mist de flexibiliteit van een VoIP-configuratie. Bovendien moeten wijzigingen worden aangebracht door een beheerder met diepgaande kennis van het systeem in plaats van door individuele gebruikers.
+
+
+
+
+In een notendop de voordelen voor het kiezen van een cloud telefooncentrale van Belfabriek:
+
+- Alle nuttige (optionele) functies zoals call recording, keuzemenu en wachtrij zijn kosteloos inbegrepen.
+
+- Gebruiksvriendelijke app voor zowel Android als iOS
+
+- Géén nieuwe hardware of telefoons nodig
+
+- Alle mogelijke mooie nummers gemakkelijk registreren: 0800, 078, lokaal (02 Brussel, 03 Antwerpen, enzovoort), internationaal (o.a. Duitsland, Nederland, Verenigde Staten).
+
+- All-inclusive tarief van 45 Euro/maand, zonder addertjes onder het gras, bij bepaalde nummers zoals 078 gratis bellen onder fair use beleid.
+
+ 
+ 
+   
+(ik ga alles nog samenvatten)
