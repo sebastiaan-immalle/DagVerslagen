@@ -1,4 +1,4 @@
-﻿#hier zal ik al mijn informatie plaatsen die heb gevonden (wel samengevat(komt nog)).
+﻿#hier zal ik al mijn informatie plaatsen die ik heb gevonden (wel samengevat(komt nog)).
 
 Dag1: Virtual machines
 Soorten VM’s
