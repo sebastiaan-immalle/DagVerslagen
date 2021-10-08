@@ -1,6 +1,4 @@
-﻿#hier zal ik al mijn informatie plaatsen die ik heb gevonden (wel samengevat(komt nog)).
-
-[![N|Solid](https://www.get.be/fileadmin/template/img/get-logo.png)](https://www.get.be/)
+﻿[![N|Solid](https://www.get.be/fileadmin/template/img/get-logo.png)](https://www.get.be/) [![N|Solid](https://www.get.be/fileadmin/_processed_/f/4/csm_Illu_GET_Alle_kennis_gebundeld_708x708_167401cc42.png)](https://www.get.be/)
  
 # DagVerslagen Giptaak - GET
 
