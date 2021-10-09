@@ -14,28 +14,27 @@
 - Hoe bedrijven **VPN's** gebruiken
 - Hoe bedrijven **Firewalls** efficient gebruiken
 - Meer informatie over **IP-adressen**
-- GET's **Topologie** bekeken
+- GET's **topologie** bekeken
 
 ### Dag 3 - `Assets`
 #### 2021-10-06 
-- Meer geleerd over **Azure Active Director**
-- Meer geleerd over **Windows autopilot**
+- Meer geleerd over **Azure Active Directory**
+- Meer geleerd over **Windows Autopilot**
 - Meer geleerd over **Microsoft Intune**
 - Meer geleerd over **Power Automate**
 
 ### Dag 4 - `Back-up & Teams`
 #### 2021-10-07 
-- De verschillen tussen **Online Backup** en **Fileservers** gezien
+- De verschillen tussen **online backup** en **fileservers** gezien
 - Meer geleerd over **Netapp**
 - Meer geleerd over **PABX**
-- Meer geleerd over **teams**
-- Meer geleerd over **veeam**
+- Meer geleerd over **teams** & **veeam**
 
 ### Dag 5 - `Mobiele werkplek`
 #### 2021-10-08 
 - Geleerd hoe werknemers kunnen werken van en mobiele werkplek.
 - Geleerd wat te doen als iets fout gaat terwijl je van een mobiele werkplek werkt
-- Geleerd hoe je efficient oplossingen kan zoeken
+- Geleerd hoe je efficiënt oplossingen kan zoeken
 
 
  
